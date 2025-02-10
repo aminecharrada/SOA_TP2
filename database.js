@@ -78,7 +78,7 @@ const deletePerson = (id) => {
         } else if (this.changes === 0) {
             console.log(`⚠️ Aucune personne trouvée avec l'ID ${id}`);
         } else {
-            console.log(`✅ Personne avec l'ID ${id} supprimée.`);
+            console.log(`✅ Personne avec l'ID ${id} supprimé.`);
         }
     });
 };
